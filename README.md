@@ -31,10 +31,10 @@ These are the various solutions I submitted online on various competitive progra
 If you're scanning through this repository, chances are that you are interested in competitive programming yourself. If so, I would like to suggest some resources which I have been following myself.
 
 - [Guide to Competitive Programming](https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf)
-A really nice book to start your journey with competitive programming, especially if you are a devoted C++ programmer like myself (not that fond of coffee). It teaches core language features, important DSA concepts as well as optimisation techniques.
+<br>A really nice book to start your journey with competitive programming, especially if you are a devoted C++ programmer like myself (not that fond of coffee). It teaches core language features, important DSA concepts as well as optimisation techniques.
 
 - [CSES Problem Set](https://cses.fi/problemset/)
-The book is only helpful if you solve these problems along with it. Competitive programming is all about solving problems, the more you do, the better you will get at it.
+<br>The book is only helpful if you solve these problems along with it. Competitive programming is all about solving problems, the more you do, the better you will get at it.
 
 I am planning on expanding this list when I find new resources. However, I will only recommend what I use personally, so there may be better resources out there that I am blissfully unaware of.
 
