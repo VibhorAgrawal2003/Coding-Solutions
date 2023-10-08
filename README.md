@@ -16,6 +16,14 @@ I have recently started solving competitive programming questions more systemati
 ### List of Solutions
 These are the various solutions I submitted online on various competitive programming websites. I update this list regularly after I have documented my solutions. This list is also chronological, the solutions listed below are in the order of latest to oldest.
 
+- [Joyboard](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/joyboard.cpp)
+
+- [Goals of Victory](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/goalsOfVictory.cpp)
+
+- [Chips on the Board](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/chipsOnTheBoard.cpp)
+
+- [Rigged](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/rigged.cpp)
+
 - [Target Practice](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/targetPractice.cpp)
 - [Good Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/goodKid.cpp)
 - [Dalton The Teacher](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/daltonTheTeacher.cpp)
