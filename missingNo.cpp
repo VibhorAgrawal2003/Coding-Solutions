@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Identify the missing number from given numbers starting from 1 to n
+ * @see https://cses.fi/problemset/task/1083
+*/
+
 int main(){
 
     int n;

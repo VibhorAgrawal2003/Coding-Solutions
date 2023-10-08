@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Given the efficiency of all but one teams in a round-robin tournament, identify the missing efficiency
+ * @see https://codeforces.com/contest/1877/problem/A
+*/
+
 int main(){
     int T, N, sum, x;
     cin >> T;

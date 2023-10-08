@@ -2,6 +2,11 @@
 #include<cctype>
 using namespace std;
 
+/**
+ * @brief Identify longest repeating string of protein in DNA sequence
+ * @see https://cses.fi/problemset/task/1069
+*/
+
 int main(){
     char x, y;
     cin >> y;

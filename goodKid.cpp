@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Maximise the product of an array of integers by incrementing any one element
+ * @see https://codeforces.com/contest/1873/problem/B
+*/
+
 int main(){
 
     int T, N, S, P, Z, x;

@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Rig a weight-lifting contest by adjusting barble weight
+ * @see https://codeforces.com/contest/1879/problem/A
+*/
+
 int main(){
     int T, N;
     cin >> T;

@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief By performing increment/decrement operations, find minimum moves to set product of all input integers as zero
+ * @see https://codeforces.com/contest/1866/problem/A
+*/
+
 int main(){
     int T;
     cin >> T;

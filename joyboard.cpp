@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Identify no. of ways a joyboard can be set such that there are exactly k different entries
+ * @see https://codeforces.com/contest/1877/problem/C
+*/
+
 int main(){
 
     int T, n, m, k;

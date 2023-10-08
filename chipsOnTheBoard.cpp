@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Find minimum cost to place enough chips on an NxN checkerboard so that all squares are covered
+ * @see https://codeforces.com/contest/1879/problem/B
+*/
+
 typedef long long int ll;
 
 int main(){

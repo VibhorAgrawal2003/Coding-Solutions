@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+/**
+ * @brief By performing swapping operations, find minimum moves to rearrange a permutation such that no element is in its natural position
+ * @see https://codeforces.com/contest/1855/problem/A
+*/
+
 int main(){
 
     int T, N, U, x;

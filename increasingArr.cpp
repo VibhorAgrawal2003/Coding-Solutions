@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/**
+ * @brief Modify an array only by incrementing such that each element is bigger than all its predecessors
+ * @see https://cses.fi/problemset/task/1094
+*/
+
 #define ll long long
 
 int main(){

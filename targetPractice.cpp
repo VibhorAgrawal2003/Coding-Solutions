@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 
+/**
+ * @brief Calculate score from target practice board
+ * @see https://codeforces.com/contest/1873/problem/C
+*/
+
 int main(){
     int T, score;
     char C;

@@ -1,5 +1,10 @@
-#include<iostream>~
+#include<iostream>
 using namespace std;
+
+/**
+ * @brief Construct a permutation where no element is in its starting location
+ * @see https://cses.fi/problemset/task/1070
+*/
 
 int main(){
     int n, r;

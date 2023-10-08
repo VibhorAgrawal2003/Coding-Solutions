@@ -1,15 +1,10 @@
 #include<iostream>
 using namespace std;
 
-// Weird Algorithm
-// In this algorithm, we take a positive integer n
-// If n is even, we divide by 2
-// If n is odd, we multiply by 3 and add 1
-// We continue until the number becomes 1
-
-// Source: Collatz Conjecture
-// It states that this algorithm results in 1 for all input values n
-// However it is a conjecture because no one has been able to prove it
+/**
+ * @brief This algorithm is defined by the Collatz Conjecture.
+ * @see Task: https://cses.fi/problemset/task/1068
+*/
 
 int main(){
 
