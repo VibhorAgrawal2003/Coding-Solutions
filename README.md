@@ -16,24 +16,24 @@ I have recently started solving competitive programming questions more systemati
 ### List of Solutions
 These are the various solutions I submitted online on various competitive programming websites. I update this list regularly after I have documented my solutions. This list is also chronological, the solutions listed below are in the order of latest to oldest.
 
-- [Joyboard](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/joyboard.cpp)
+- [Joyboard](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/joyboard.cpp)
 
-- [Goals of Victory](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/goalsOfVictory.cpp)
+- [Goals of Victory](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/goalsOfVictory.cpp)
 
-- [Chips on the Board](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/chipsOnTheBoard.cpp)
+- [Chips on the Board](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/chipsOnTheBoard.cpp)
 
-- [Rigged](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/rigged.cpp)
+- [Rigged](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/rigged.cpp)
 
-- [Target Practice](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/targetPractice.cpp)
-- [Good Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/goodKid.cpp)
-- [Dalton The Teacher](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/daltonTheTeacher.cpp)
-- [Beautiful Permutations](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/permutations.cpp)
-- [Increasing Array](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/increasingArr.cpp)
-- [Coins](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/coins.cpp)
-- [Ambitious Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/ambitiousKid.cpp)
-- [Repititions in DNA](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/repititions.cpp)
-- [Missing Number](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/missingNo.cpp)
-- [Weird Algorithm](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/weirdAlgo.cpp)
+- [Target Practice](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/targetPractice.cpp)
+- [Good Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/goodKid.cpp)
+- [Dalton The Teacher](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/daltonTheTeacher.cpp)
+- [Beautiful Permutations](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/permutations.cpp)
+- [Increasing Array](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/increasingArr.cpp)
+- [Coins](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/coins.cpp)
+- [Ambitious Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/ambitiousKid.cpp)
+- [Repititions in DNA](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/repititions.cpp)
+- [Missing Number](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/missingNo.cpp)
+- [Weird Algorithm](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/weirdAlgo.cpp)
 
 ### Useful Resources
 If you're scanning through this repository, chances are that you are interested in competitive programming yourself. If so, I would like to suggest some resources which I have been following myself.
