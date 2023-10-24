@@ -13,39 +13,15 @@ I have recently started solving competitive programming questions more systemati
 
 [:point_right: click me to go to profile :point_left: ](https://codeforces.com/profile/vibhorag03)
 
-### List of Solutions
-These are the various solutions I submitted online on various competitive programming websites. I update this list regularly after I have documented my solutions. This list is also chronological, the solutions listed below are in the order of latest to oldest.
 
-- [Joyboard](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/joyboard.cpp)
+### Directories
+This repository contains directories for keeping all my codes organized. I provide brief descriptions for each directory to better understand the programs they entail.
 
-- [Goals of Victory](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/goalsOfVictory.cpp)
+- codeforces
+It contains my solutions for various problems from the codeforces catalogue both in my own time as well as in ranked competitions.
 
-- [Chips on the Board](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/chipsOnTheBoard.cpp)
+- cses
+It contains my solutions for the CSES problem set for practising competitive programming, algorithmic thinking and C++ language features.
 
-- [Rigged](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/rigged.cpp)
-
-- [Target Practice](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/targetPractice.cpp)
-- [Good Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/goodKid.cpp)
-- [Dalton The Teacher](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/daltonTheTeacher.cpp)
-- [Beautiful Permutations](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/permutations.cpp)
-- [Increasing Array](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/increasingArr.cpp)
-- [Coins](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/coins.cpp)
-- [Ambitious Kid](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/codeforces/ambitiousKid.cpp)
-- [Repititions in DNA](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/repititions.cpp)
-- [Missing Number](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/missingNo.cpp)
-- [Weird Algorithm](https://github.com/VibhorAgrawal2003/cp-solutions/blob/main/cses/weirdAlgo.cpp)
-
-### Useful Resources
-If you're scanning through this repository, chances are that you are interested in competitive programming yourself. If so, I would like to suggest some resources which I have been following myself.
-
-- [Guide to Competitive Programming](https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf)
-<br>A really nice book to start your journey with competitive programming, especially if you are a devoted C++ programmer like myself (not that fond of coffee). It teaches core language features, important DSA concepts as well as optimisation techniques.
-
-- [CSES Problem Set](https://cses.fi/problemset/)
-<br>The book is only helpful if you solve these problems along with it. Competitive programming is all about solving problems, the more you do, the better you will get at it.
-
-I am planning on expanding this list when I find new resources. However, I will only recommend what I use personally, so there may be better resources out there that I am blissfully unaware of.
-
----
-
-Wowza! You have reached the end of the README file. Now I shall go back to solving more problems.
+- holloway
+It contains my solutions for the practice problems I picked from the book "Introduction to Engineering Programming" by James Paul Holloway.
