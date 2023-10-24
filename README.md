@@ -5,7 +5,7 @@
 A collection of algorithms and programs I submitted as solutions for various competitive programming questions. This is for educational and progress-tracking purpose. As of now, all solutions are in C++. They were compiled using the following command:
 
 ```
-g++ -std=c++11 -O2 -Wall solution.cpp
+g++ -std=c++17 -O2 -Wall solution.cpp
 ```
 
 ### My Profile
