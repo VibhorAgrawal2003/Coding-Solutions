@@ -17,11 +17,14 @@ I have recently started solving competitive programming questions more systemati
 ### Directories
 This repository contains directories for keeping all my codes organized. I provide brief descriptions for each directory to better understand the programs they entail.
 
-- codeforces
+- <b>codeforces</b><br>
 It contains my solutions for various problems from the codeforces catalogue both in my own time as well as in ranked competitions.
+<br>
 
-- cses
+- <b>cses</b><br>
 It contains my solutions for the CSES problem set for practising competitive programming, algorithmic thinking and C++ language features.
+<br>
 
-- holloway
+- <b>holloway</b><br>
 It contains my solutions for the practice problems I picked from the book "Introduction to Engineering Programming" by James Paul Holloway.
+<br>
