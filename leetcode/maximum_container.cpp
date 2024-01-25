@@ -22,9 +22,6 @@ using namespace std;
  * At every step, shift the pointer looking at smaller wall as we want to keep taller walls in our rectangle.
 */
 
-// Fails at:
-// Testcase: [1, 3, 2, 5, 25, 24, 5]
-
 class Solution{
 public:
     int maxArea(vector<int>& height){
