@@ -1,4 +1,4 @@
-# cp-solutions
+# Coding Solutions
 
 ---
 
@@ -9,9 +9,10 @@ g++ -std=c++17 -O2 -Wall solution.cpp
 ```
 
 ### My Profile
-I have recently started solving competitive programming questions more systematically and have been enjoying it a lot. I mostly use <b>codeforces</b> for the same.
+I am currently learning some advanced concepts in C++ such as standard templates, structures and iterators. Focusing on getting a better grasp at core concepts and as such my progress in competitive coding is a bit slow as of now. I mainly use Leetcode and Codeforces to solve problems.
 
-[:point_right: click me to go to profile :point_left: ](https://codeforces.com/profile/vibhorag03)
+[:point_right: visit my codeforces profile :point_left: ](https://codeforces.com/profile/vibhorag03)
+[:point_right: visit my leetcode profile :point_left: ](https://codeforces.com/profile/vibhorag03)
 
 
 ### Directories

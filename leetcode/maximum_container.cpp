@@ -111,7 +111,13 @@ public:
 };
 
 
-// BRUTE FORCE APPROACH: TIME LIMIT EXCEEDED
+// BRUTE SOLUTION: Time Limit Exceeded
+
+/**
+ * Approach: Iterates over the entire array using nested loop.
+ * Simple simulation of the given problem to find all possible areas.
+ * Simply check which of the possible areas seems the best.
+*/
 
 class Brute{
 public:
