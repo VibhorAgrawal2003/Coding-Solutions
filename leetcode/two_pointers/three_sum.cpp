@@ -111,7 +111,7 @@ public:
 
 /**
  * Approach: Iterates over the entire array using nested loop.
- * Simple simulation of the given problem to find all possible areas.
+ * Simple simulation of the given problem to find all possible sums.
  * Here we use sets as intermediate container to avoid duplicate solutions.
  * Vectors containing duplicate items are resolved by using the sort function.
 */
