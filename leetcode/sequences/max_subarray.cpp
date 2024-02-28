@@ -13,6 +13,56 @@ template <typename T> void showVector(vector<T> &vec) {
 
 /**
  * KADANES ALGORITHM
+ * Here, we make slight alterations to also print the maxsubarray.
+ * We use 'p' to track where maxsubarray begins.
+ * We use 'q' to track where maxsubarray ends.
+ * We use 'r' to point at maximum value in the entire array.
+ * In case of all negatives, p will reach the end of the array.
+ * If that happens, only then we use 'r' to get the maxsubarray.
+ */
+class Bonus {
+public:
+  void maxSubArray(vector<int> &nums) {
+    int maxsum{INT_MIN}, sum{0}, p{0}, q{0};
+    int maxval{INT_MIN}, r{0};
+    for (int i = 0; i < nums.size(); i++) {
+
+      if (nums[i] > maxval) {
+        maxval = nums[i];
+        r = i;
+      }
+
+      if (sum >= 0) {
+        sum += nums[i];
+      } else {
+        sum = nums[i];
+        p = i;
+      }
+
+      if (sum > maxsum) {
+        maxsum = sum;
+        q = i;
+      }
+    }
+
+    if (q < p) {
+      p = r;
+      q = r;
+    }
+
+    // Print the subarray
+    cout << "Subarray: { ";
+    for (int i = p; i <= q; i++) {
+      cout << nums[i] << " ";
+    }
+    cout << "} " << endl;
+    cout << "Maxsum: " << maxsum << endl;
+    cout << endl;
+  }
+};
+
+/**
+ * KADANES ALGORITHM
  * This solution uses a smart observation.
  * We only need to lug forward a subarray if it increases the sum.
  * Therefore, only need to carry on a result if it is positive.
@@ -119,13 +169,22 @@ int main() {
   vector<int> v6 = {-2, 1};
   vector<int> v7 = {8, -19, 5, -4, 20};
 
-  Solution S;
-  cout << S.maxSubArray(v1) << endl;
-  cout << S.maxSubArray(v2) << endl;
-  cout << S.maxSubArray(v3) << endl;
-  cout << S.maxSubArray(v4) << endl;
-  cout << S.maxSubArray(v5) << endl;
-  cout << S.maxSubArray(v7) << endl;
+  Bonus M;
+  M.maxSubArray(v1);
+  M.maxSubArray(v2);
+  M.maxSubArray(v3);
+  M.maxSubArray(v4);
+  M.maxSubArray(v5);
+  M.maxSubArray(v6);
+  M.maxSubArray(v7);
+
+  // Solution S;
+  // cout << S.maxSubArray(v1) << endl;
+  // cout << S.maxSubArray(v2) << endl;
+  // cout << S.maxSubArray(v3) << endl;
+  // cout << S.maxSubArray(v4) << endl;
+  // cout << S.maxSubArray(v5) << endl;
+  // cout << S.maxSubArray(v7) << endl;
 
   // Subpar P;
   // cout << P.maxSubArray(v1) << endl;
