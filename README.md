@@ -11,8 +11,8 @@ g++ -std=c++17 -O2 -Wall solution.cpp
 ### My Profile
 I am currently learning some advanced concepts in C++ such as standard templates, structures and iterators. Focusing on getting a better grasp at core concepts and as such my progress in competitive coding is a bit slow as of now. I mainly use Leetcode and Codeforces to solve problems.
 
-:point_right: [visit my codeforces profile](https://codeforces.com/profile/vibhorag03) :point_left:<br>
 :point_right: [visit my leetcode profile](https://leetcode.com/vibhor2003/) :point_left:<br>
+:point_right: [visit my codeforces profile](https://codeforces.com/profile/vibhorag03) :point_left:<br>
 
 
 ### Directories
