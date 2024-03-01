@@ -10,6 +10,9 @@ template <typename T> void showVector(vector<T> &v) {
   cout << endl;
 }
 
+/**
+ * DUTCH NATIONAL FLAG ALGORITHM
+ */
 class Solution {
 public:
   void swapItems(int &x, int &y) {
@@ -18,7 +21,29 @@ public:
     y = t;
   }
 
-  void sortColors(vector<int> &nums) {}
+  void sortColors(vector<int> &nums) {
+
+    int low = 0;
+    int mid = 0;
+    int high = (int)nums.size() - 1;
+
+    while (mid <= high) {
+      if (nums[mid] == 0) {
+        swapItems(nums[mid], nums[low]);
+        low++;
+        mid++;
+      }
+
+      else if (nums[mid] == 1) {
+        mid++;
+      }
+
+      else {
+        swapItems(nums[mid], nums[high]);
+        high--;
+      }
+    }
+  }
 };
 
 /**
@@ -85,6 +110,11 @@ int main() {
   testcases.push_back((vector<int>){0, 0, 1, 2, 2, 2});
   testcases.push_back((vector<int>){2, 0, 1, 2, 0, 1, 2, 2});
   testcases.push_back((vector<int>){1, 0, 0, 2, 2, 2, 0, 2, 1, 0});
+  testcases.push_back(
+      (vector<int>){2, 1, 0, 2, 1, 2, 2, 2, 0, 0, 0, 1, 2, 2, 1});
+  testcases.push_back(
+      (vector<int>){1, 2, 0, 2, 1, 1, 1, 0, 0, 2, 1, 2, 2, 1, 2});
+  testcases.push_back((vector<int>){0, 0, 0, 2, 2, 2, 1, 2, 1, 2, 1, 2});
 
   for (auto x : testcases) {
     S.sortColors(x);
