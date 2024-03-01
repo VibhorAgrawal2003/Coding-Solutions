@@ -15,12 +15,6 @@ template <typename T> void showVector(vector<T> &v) {
  */
 class Solution {
 public:
-  void swapItems(int &x, int &y) {
-    int t = x;
-    x = y;
-    y = t;
-  }
-
   void sortColors(vector<int> &nums) {
 
     int low = 0;
@@ -29,7 +23,7 @@ public:
 
     while (mid <= high) {
       if (nums[mid] == 0) {
-        swapItems(nums[mid], nums[low]);
+        swap(nums[mid], nums[low]);
         low++;
         mid++;
       }
@@ -39,7 +33,7 @@ public:
       }
 
       else {
-        swapItems(nums[mid], nums[high]);
+        swap(nums[mid], nums[high]);
         high--;
       }
     }
@@ -80,18 +74,12 @@ public:
  */
 class Brute {
 public:
-  void swapItems(int &x, int &y) {
-    int t = x;
-    x = y;
-    y = t;
-  }
-
   void sortColors(vector<int> &nums) {
     for (int i = 0; i < nums.size(); i++) {
       for (int j = i; j < nums.size(); j++) {
 
         if (nums[i] > nums[j]) {
-          swapItems(nums[i], nums[j]);
+          swap(nums[i], nums[j]);
         }
       }
     }
