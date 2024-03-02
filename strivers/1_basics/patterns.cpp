@@ -236,7 +236,69 @@ void hollowDiamondPattern(int &n) {
   }
 }
 
-void butterflyPattern(int &n) {}
+void butterflyPattern(int &n) {
+  int m = 1;
+  for (int i = 0; i >= 0; i += m) {
+    if (m == 1 && i >= n / 2) {
+      m = -1;
+      if (n % 2 == 0) {
+        continue;
+      }
+    }
+
+    for (int j = 0; j <= i; j++) {
+      cout << "* ";
+    }
+
+    for (int j = 0; j < 2 * (n / 2 - i); j++) {
+      cout << "  ";
+    }
+
+    for (int j = 0; j <= i; j++) {
+      cout << "* ";
+    }
+    cout << "\n";
+  }
+}
+
+void hollowRectanglePattern(int &n) {
+  for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+      if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+        cout << "* ";
+      } else {
+        cout << "  ";
+      }
+    }
+    cout << "\n";
+  }
+}
+
+void numberPortalPattern(int &n) {
+
+  int l = -1;
+
+  for (int i = n; i <= n; i += l) {
+
+    if (l == -1 && i <= 1) {
+      l = 1;
+    }
+
+    for (int j = n; j >= i; j--) {
+      cout << j << " ";
+    }
+
+    for (int j = 1; j < 2 * i - 1; j++) {
+      cout << i << " ";
+    }
+
+    for (int j = i + 1; j <= n; j++) {
+      cout << j << " ";
+    }
+
+    cout << "\n";
+  }
+}
 
 int main() {
 
@@ -322,6 +384,14 @@ int main() {
 
   cout << "Butterfly pattern\n\n";
   butterflyPattern(n);
+  cout << "\n";
+
+  cout << "Hollow rectangle pattern\n\n";
+  hollowRectanglePattern(n);
+  cout << "\n";
+
+  cout << "Number portal pattern\n\n";
+  numberPortalPattern(n);
   cout << "\n";
 
   return 0;
