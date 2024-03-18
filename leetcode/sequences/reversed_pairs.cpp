@@ -3,6 +3,13 @@
 
 using namespace std;
 
+class Solution {
+public:
+  int reversePairs(vector<int> &nums) {
+
+  }
+};
+
 class Brute {
 public:
   int reversePairs(vector<int> &nums) {
